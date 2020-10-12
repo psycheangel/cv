@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact - Dwinanto Saputra</title>
+</head>
+<body>
+	<h2>Address and Information<h2>
+
+<form class="form-contact" action="mailto:dwinantosaputra@gmail.com" method="post" enctype="text/plain">
+	<label for="interest">Interest In :</label>
+<select name="interest">
+	<optgroup label="Interest">
+		<option>Personal</option>
+		<option>Development</option>
+		<option>Technology</option>
+	</optgroup>
+	<optgroup label="Personal">
+		<option>Informational</option>
+		<option>News</option>
+	</optgroup>
+
+	</select>
+	<br/>
+	<label for="name">Name :</label>
+	<input type="name" name="toName" value="" />
+	<br/>
+	<label for="Email">Email :</label>
+	<input type="email" name="toEmailed" value="" />
+	<br/>
+	<label for="textarea">Message</label>
+	<textarea placeholder="Type something.." required="required" cols="40" rows="10" maxlength="140" name="textarea"></textarea>
+	<br/>
+	<input type="submit" value="Submit">
+</form>
+</body>
+</html>
